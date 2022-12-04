@@ -14,3 +14,13 @@ for i in x:
         min = round((i)%1, 4)
     raznicha = max - min
 print(raznicha)
+
+# list = [1.1, 1.2, 3.1, 5, 10.01]
+# min = 1
+# max = 0
+# for i in list:
+# if (i % 1) <= min:
+# min = i % 1
+# if ( i % 1) >= max:
+# max = i % 1
+# print (f"Разница между максимальным и минимальным значением дробной части равна: {(max-min)}")

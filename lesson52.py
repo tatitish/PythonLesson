@@ -83,4 +83,41 @@ def mode_sel(mode):
 mode_s = int(input('Выберите режим игры: "Против другого игрока или против компьютера": '))
 mode_sel(mode_s)
 
+# человек-человек
+# import random
+
+# player1 = 1
+# player2 = 2
+# score1 = 0
+# score2 = 0
+# sweets = 100
+# round = 0
+# ochered = random.randint(1, 2)
+# print(f'Чей ход: {ochered}')
+
+# while sweets > 28:
+# round +=1
+# print(f'Раунд: {round}')
+# print(f'Чей ход: {ochered}')
+# hod = int(input("Введите число конфет: "))
+# print(f'Сколько конфет забрал: {hod}')
+# sweets = sweets - hod
+# print(f'Осталось конфет: {sweets}')
+# if ochered == player1:
+# score1 += hod
+# ochered = player2
+# else:
+# score2 += hod
+# ochered = player1
+# else:
+# round += 1
+# print(f'Раунд: {round}')
+# print(f'Чей ход: {ochered}')
+# hod = sweets
+# print(f'Сколько конфет забрал: {hod}')
+# print(f'Победитель: {ochered}')
+
+# print(f'Счет первого игрока: {score1}')
+# print(f'Счет второго игрока: {score2}'
+
 
